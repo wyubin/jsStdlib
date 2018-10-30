@@ -4,7 +4,7 @@
 * @returns {Object} this HTMLFormElement
 */
 module.id='HTMLFormElement.js';
-var mytooltip = require('./mytooltip.js');
+//var mytooltip = require('./mytooltip.js');
 require('./stdlib.NodeList.js');
 require('./stdlib.HTMLCollection.js'); // for compatible IE
 require('./stdlib.HTMLSelectElement.js');
@@ -88,7 +88,7 @@ HTMLFormElement.prototype.elem_val = function(name,value){
 /**
 * pop valid massage for safari
 * @param {Object} e event object
-*/
+
 HTMLFormElement.prototype.safari_validity = function(e,style){
 	var i,self=this;
 	if(!this.tip_obj){
@@ -106,3 +106,4 @@ HTMLFormElement.prototype.safari_validity = function(e,style){
 	}
 	return true;
 }
+*/
